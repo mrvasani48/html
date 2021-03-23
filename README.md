@@ -1,2 +1,1 @@
-# html
-all exercise
+# html and css 
