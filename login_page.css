@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    overflow: auto  ;
+}
+#sign-in
+{
+   padding: 20px;
+   margin: -100px 10px 10px 10px;
+   text-transform: capitalize;
+   font-weight: bold;
+   font-style: normal;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: larger;
+}
+form{
+    background-color:rgb(228, 204, 152) ;
+    border-radius: 5px;
+    margin-top: -25px;
+    margin-bottom: 100px;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding: 20px;
+    
+}
+p{
+   
+    font-size: initial ;
+    font-family: none;
+    padding-left: 100px;
+    
+}
+a {
+    text-decoration: none;
+}
+#head
+{
+    
+    border-radius: 5px;
+    margin-top: 100px;
+    background-color: khaki;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding: 20px;
+}
+input[type="text"]  
+
+{
+   margin-left: 10px;
+}
+input[type="submit"]
+{
+    background-color: khaki;
+    width: 50%;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    
+}
+input[type="submit"]:hover{
+    background-color: #f2f2f2;
+}
+#addac{
+    font:initial;
+    margin-top: 44px;
+}
+
+#second
+{
+    font: size 15px; ;
+}
+#second
+{
+    font-size: initial;
+    padding-left: 130px;
+}
+a{
+     
+    text-shadow: 2px 1px rosybrown;
+}
+a #first:hover{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:active{
+    color: skyblue;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boxmodel&list&table</title>
+    <style>
+        section{
+            background-color: sandybrown;
+        }
+      section span p{
+          font-style: oblique;
+          font-size: larger;
+          font-weight: bold;
+          font-family:Arial, Helvetica, sans-serif;
+          text-shadow: 2px 4px 3px gray;
+          padding: 10px;
+          border: 2px solid rgb(79, 106, 179);
+          height: 200px;
+          width: 200px;
+          background-color:darkturquoise;
+      }
+      section div p{
+       
+          font-style: oblique;
+          font-size: larger;
+          font-weight: bold;
+          font-family:Arial, Helvetica, sans-serif;
+          text-shadow: 2px 4px 3px gray;
+          margin: 20px;
+          border: 2px solid rgb(79, 106, 179);
+          height: 200px;
+          width: 200px;
+          background-color:darkturquoise;
+      }
+      ul li{
+          list-style-type: square;
+          list-style-position: unset; 
+          list-style-image: url("image/image.jpg");
+      }
+      table ,th ,tr,td {
+          border: 5px solid blueviolet;
+          border-collapse: collapse;
+          border-radius: 2%;    
+      }
+    </style>
+</head>
+<body>
+    <section>
+    <span>
+        <p>boxmodel-1 using padding</p>
+        </span>
+    </div>
+    <div>
+        <p>boxmodel-2 using margin</p>
+    </div>
+</section>
+<h2>unordered list</h2>
+    <ul>
+        <li>Lorem.</li>
+        <li>Lorem.</li>
+        <li>Lorem.</li>
+        <li>Lorem.</li>
+        <li>Lorem.</li>
+    </ul>
+    <table  >
+        <thead>
+          <th><b>NAME</b></th>
+          <th><b>ROLL NO.</b></th>
+          <th><b>MARKS</b></th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>khushi bajaj</td>
+            <td>51</td>
+            <td>920</td>
+          </tr>
+          <tr>
+            <td>tarush tandan</td>
+            <td>63</td>
+            <td>900</td>
+          </tr><tr>
+            <td>hemant ganja</td>
+            <td>09</td>
+            <td>970</td>
+          </tr>
+          <tr>
+            <td >suresh tanej</td>
+            <td>111</td>
+            <td>900</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="2" align="center"><b>total</b></td>
+            <td>3750</td>
+          </tr>
+        </tfoot>
+      </table>
+      
+</body>
+</html>

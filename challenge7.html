@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>challenge</title>
+    <style>
+        .home{
+            text-transform: capitalize;
+            display: flex;
+            flex-wrap: nowrap;
+        }
+      .left{
+
+          height: 560px;
+          width: 400px;
+          background-color: khaki;
+          text-align: center;
+        }
+       .upper
+       {
+           height: 100px;
+           background-color: lawngreen;
+           width:1000px;
+       }
+       .middle
+       {
+           height: 360px;
+           background-color: rgb(226, 226, 226);
+           width: 1000px;
+       }
+       .lower
+       {
+           height: 100px;
+           background-color: lawngreen;
+           width: 1000px;
+       }
+       .right{
+           flex-direction: column;
+
+       }
+    </style>
+  </head>
+  <body>
+    <div class="home">
+      <div class="left">left</div>
+      <div class="right">
+        <div class="upper">right upper</div>
+        <div class="middle">right middle</div>
+        <div class="lower">right lower</div>
+      </div>
+    </div>
+  </body>
+</html>

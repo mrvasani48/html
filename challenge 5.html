@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box1,
+      .box2,
+      .box3 {
+        text-align: left;
+        text-transform: capitalize;
+        padding: 10px;
+        margin: 5px 5px -5px 5px;
+        color: rgb(51, 12, 12);
+        display: flex;
+       /* flex-wrap: wrap ;*/
+      }
+      .line2box,.line3box{
+          padding: 10px;
+          margin: 5px 5px -15px 5px;
+          border: 2px solid dimgrey ;
+          height: 50px;
+          border-radius: 5px;
+          flex-direction: row; 
+      }
+      .line1box{
+          padding: 10px;
+          margin: 5px 5px -15px 5px;
+          border: 2px solid dimgrey ;
+          height: 190px;
+          width: 70px;
+          border-radius: 5px;
+          flex-direction: row; 
+      }
+      #box1,#box2,#box3{
+          background-color: rgb(160, 104, 0);
+          flex-basis:400px ;
+          color: whitesmoke     ;
+      }
+      #box4,#box5,#box6,#box7{
+        background-color: rgb(160, 104, 0);
+          flex-basis:400px ;
+          color: whitesmoke;
+      }
+      #box8,#box9,#box10,#box11,#box12{
+        background-color: rgb(160, 104, 0);
+          flex-basis:400px ;
+          color: white;
+      }
+      .nested1,.nested2,.nested3{
+        text-align:left;
+        text-transform: capitalize;
+        color: rgb(51, 12, 12);
+        display: flex;
+        
+      }
+      .line1,.line2,.line3{
+         margin: 3px;
+          border: 2px solid  rgb(160, 104, 0) ;
+          height: 50px;
+          border-radius: 5px;
+          flex-direction: row; 
+          padding-left: 10px;
+      }
+      #box21,#box22,#box23{
+          background-color: white;
+          flex-basis:400px ;
+      }
+      #box24,#box25,#box26,#box27{
+          background-color:white;
+          flex-basis:400px ;
+          
+      }
+      #box28,#box29,#box30,#box31,#box32{
+          background-color: white;
+          flex-basis:400px ;
+         
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box1">
+      <div class="line1box" id="box1">1
+        <div class="nested1">
+            <div class="line1" id="box21">1.0</div>
+            <div class="line1" id="box22">1.1</div>
+            <div class="line1" id="box23">1.2</div>
+          </div>
+          <div class="nested2">
+            <div class="line2" id="box24">1.3</div>
+            <div class="line2" id="box25">1.4</div>
+            <div class="line2" id="box26">1.5</div>
+            <div class="line2" id="box27">1.6</div>
+          </div>
+          <div class="nested3">
+            <div class="line3" id="box28">1.7</div>
+            <div class="line3" id="box29">1.8</div>
+            <div class="line3" id="box30">1.9</div>
+            <div class="line3" id="box31">2.0</div>
+            <div class="line3" id="box32">2.1</div>
+          </div>
+      </div>
+      <div class="line1box" id="box2">2</div>
+      <div class="line1box" id="box3">3</div>
+    </div>
+    <div class="box2">
+      <div class="line2box" id="box4">4</div>
+      <div class="line2box" id="box5">5</div>
+      <div class="line2box" id="box6">6</div>
+      <div class="line2box" id="box7">7</div>
+    </div>
+    <div class="box3">
+      <div class="line3box" id="box8">8</div>
+      <div class="line3box" id="box9">9</div>
+      <div class="line3box" id="box10">10</div>
+      <div class="line3box" id="box11">11</div>
+      <div class="line3box" id="box12">12</div>
+    </div>
+  </body>
+</html>

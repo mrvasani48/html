@@ -1,0 +1,54 @@
+header span {
+  text-align: center;
+  padding-left: 31%;
+  padding-right: 30%;
+  font-size: 100px;
+
+  width: 100%;
+  background-color: rgba(139, 69, 19, 0.74);
+  background-size: 100%;
+  background-position: center;
+}
+nav {
+  padding: 20px 40px;
+  margin-top: 0%;
+  background-color: rgb(232, 235, 228);
+}
+nav a {
+  height: 30px;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+}
+.Course {
+  margin: 20px;
+}
+a:hover {
+  background-color: rgba(139, 69, 19, 0.801);
+}
+#active {
+  background-color: rgb(113, 138, 163);
+}
+.Courrse {
+  margin: 40px;
+}
+#our {
+  align-items: center;
+  padding-left: 37%;
+}
+.fd {
+  text-decoration: none;
+}
+
+footer ul li {
+  list-style-type: none;
+}
+footer ul li a {
+s
+  float: left;
+  padding: 10px;
+  border: blue;
+  background-color: rgb(250, 158, 158);
+  text-decoration: none;
+}

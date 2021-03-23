@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>payment form</title>
+    <link rel="stylesheet" href="payment_form.css">
+
+  </head>
+  <body>
+    <form action="" method="get" class="container">
+      <h1 >payment form</h1>
+     <hr>
+      <p>" required field follows by * "</p>
+      <div>name : * <input type="text" required name="name" value=""  placeholder="kishan vasani"/></div>
+      <br />
+      <fieldset>
+        <legend>xender *</legend>
+        <div>
+          male
+          <input type="radio" required name="zender" value="male" />female<input
+            type="radio"
+            required
+            name="zender"
+            value="female"
+          />
+        </div>
+      </fieldset>
+      <br>
+      <p>address: <br> <textarea cols="130" rows="10" placeholder="vavdi talaja bhavnagr "></textarea></p>
+      <br/>
+      <div>email: * <input type="email" required name="email" value="" placeholder="vasanikishan@gmail.com"/></div>
+      <br/>
+      <div>
+        pincode: *
+        <input type="number" required name="pincode"value="" placeholder="364140" />
+      </div>
+      
+      <h2>payment option</h2>
+      <div>
+        card type: *
+        <select required>
+          <option value="">__select card type__</option>
+          <option value="visa">visa</option>
+          <option value="rupay">rupay</option>
+          <option value="master card">master</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        Expiration date: *
+        <input
+          type="date"
+          required
+          name="expiration_date"
+          value="expiration_date"
+          id=""
+        />
+      </div>
+      <br />
+      <div>
+        cvv: * <input type="password" length="3" required name="cvv" id=""  placeholder="***"/>
+      </div>
+      <br />
+      <input class="hover"type="submit" value="pay now" />         <input type="reset" class="hover" value="reset" />
+      <br><br>
+    </form>
+  </body>
+</html>

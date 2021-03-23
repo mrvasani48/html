@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z-index</title>
+    <style>
+        #box1{
+            background-color: burlywood;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding: 10px;
+            margin: 5px;
+            width:300px;
+            height: 300px;
+            position: absolute;
+            z-index: 1;
+
+        }
+       #box2{
+            background-color: rgb(173, 135, 222);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding: 10px;
+            margin: 5px;
+            width:300px;
+            height: 300px;
+            position: absolute;
+            left: 40px;
+            top: 40px;
+            z-index: 2;
+        }
+
+        #box3{
+            background-color: rgb(135, 173, 222);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding: 10px;
+            margin: 5px;
+            width:300px;
+            height: 300px;
+            position: absolute;
+            left: 40px;
+            top: 40px;
+            z-index: 3;
+        }
+       
+
+    </style>
+</head>
+<body>
+    <div id="box1">the box 1</div>
+    <div id="box2">the box 2<div>
+    <div id="box3">the box 3</div>
+</body>
+</html>

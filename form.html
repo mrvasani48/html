@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+  </head>
+  <body>
+    <form action="" method="get">
+      <h1>data form</h1>
+      <p>required field follows by *</p>
+      <div>name *: <input type="text" required name="name" value="" /></div>
+      <br />
+      <fieldset>
+        <legend>zender *</legend>
+        <div>
+          male:
+          <input type="radio" required name="zender" value="male" />female<input
+            type="radio"
+            required
+            name="zender"
+            value="female"
+          />
+        </div>
+      </fieldset>
+      <div>address: <textarea cols="100" rows="10"></textarea></div>
+      <br />
+      <div>email *: <input type="email" required name="email" value="" /></div>
+      <br />
+      <div>
+        pincode *:
+        <input type="number" required name="pincode" id="" value="" />
+      </div>
+    </form>
+  </body>
+</html>
